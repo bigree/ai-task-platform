@@ -275,17 +275,45 @@ class CranioDiff(nn.Module):
             requires_safety_checker=False,
         ).to(self.device)
 
+        # Ensure dtype consistency across all pipeline components
+        if self.dtype == torch.float16:
+            pipeline = pipeline.to(torch.float16)
+
         generator = torch.Generator(device=self.device)
         if seed is not None:
             generator.manual_seed(seed)
 
-        result = pipeline(
-            prompt=prompt,
-            image=skull_image,
-            num_inference_steps=num_inference_steps,
-            guidance_scale=guidance_scale,
-            controlnet_conditioning_scale=controlnet_conditioning_scale,
-            generator=generator,
-        ).images[0]
+        # skull_image: convert tensor → PIL for pipeline compatibility
+        from torchvision import transforms as T
+        from PIL import Image as PILImage
+        import numpy as np
+        if isinstance(skull_image, torch.Tensor):
+            img_np = skull_image.squeeze(0).float().cpu()
+            img_np = (img_np.clamp(-1, 1) + 1.0) / 2.0
+            img_np = img_np.permute(1, 2, 0).numpy()
+            skull_pil = PILImage.fromarray((img_np * 255).astype(np.uint8))
+        else:
+            skull_pil = skull_image
+
+        use_autocast = (self.dtype == torch.float16 and self.device != "cpu")
+        if use_autocast:
+            with torch.autocast(device_type="cuda", dtype=torch.float16):
+                result = pipeline(
+                    prompt=prompt,
+                    image=skull_pil,
+                    num_inference_steps=num_inference_steps,
+                    guidance_scale=guidance_scale,
+                    controlnet_conditioning_scale=controlnet_conditioning_scale,
+                    generator=generator,
+                ).images[0]
+        else:
+            result = pipeline(
+                prompt=prompt,
+                image=skull_pil,
+                num_inference_steps=num_inference_steps,
+                guidance_scale=guidance_scale,
+                controlnet_conditioning_scale=controlnet_conditioning_scale,
+                generator=generator,
+            ).images[0]
 
         return result
