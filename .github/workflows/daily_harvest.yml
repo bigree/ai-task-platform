@@ -1,0 +1,37 @@
+name: Daily Harvest
+
+on:
+  schedule:
+    - cron: "0 1 * * *"   # 毎日 UTC 01:00（JST 10:00）
+  workflow_dispatch:        # 手動実行も可
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # queue/tasks.json を push するため
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Paper Scout
+        run: python scripts/paper_scout.py
+
+      - name: Run Harvester
+        run: python scripts/harvester.py
+
+      - name: Commit updated queue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add queue/tasks.json
+          git diff --staged --quiet || git commit -m "chore: update task queue [$(date -u +%Y-%m-%d)]"
+          git push

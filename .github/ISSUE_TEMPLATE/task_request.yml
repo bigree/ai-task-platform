@@ -1,0 +1,38 @@
+name: タスク依頼
+description: AI処理のタスクを依頼する（論文実装・汎用AIタスクなど）
+title: "[タスク] "
+labels: ["task-request"]
+body:
+  - type: dropdown
+    id: task_type
+    attributes:
+      label: タスク種別
+      options:
+        - 論文 PoC 実装
+        - 汎用 AI タスク
+        - 医療・研究サポート
+        - 自動化スクリプト
+        - その他
+    validations:
+      required: true
+
+  - type: input
+    id: arxiv_id
+    attributes:
+      label: arXiv ID（論文実装の場合）
+      placeholder: "例: 2401.12345"
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 依頼内容
+      description: 何をしてほしいか、できるだけ具体的に
+      placeholder: "例: このAttentionメカニズムをPyTorchで実装してほしい。できれば学習ループまで含めて。"
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: 返信先（任意）
+      placeholder: "email or Twitter/X handle"

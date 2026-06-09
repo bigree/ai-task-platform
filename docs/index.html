@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Task Platform — 論文実装 & タスク依頼</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --accent: #58a6ff;
+      --accent2: #3fb950;
+      --text: #e6edf3;
+      --muted: #8b949e;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    header h1 { font-size: 1.25rem; }
+    header .badge {
+      background: var(--accent2);
+      color: #000;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 99px;
+      text-transform: uppercase;
+    }
+    .hero {
+      max-width: 760px;
+      margin: 4rem auto 2rem;
+      padding: 0 2rem;
+      text-align: center;
+    }
+    .hero h2 { font-size: 2rem; margin-bottom: 1rem; }
+    .hero p { color: var(--muted); font-size: 1.05rem; }
+    .cards {
+      max-width: 760px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    @media (max-width: 600px) { .cards { grid-template-columns: 1fr; } }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+    }
+    .card h3 { margin-bottom: 0.5rem; font-size: 1rem; }
+    .card p { color: var(--muted); font-size: 0.9rem; }
+    .card .icon { font-size: 1.8rem; margin-bottom: 0.75rem; }
+    section.form-section {
+      max-width: 560px;
+      margin: 3rem auto 5rem;
+      padding: 0 2rem;
+    }
+    section.form-section h2 {
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .form-group { margin-bottom: 1.2rem; }
+    label { display: block; margin-bottom: 0.4rem; font-size: 0.9rem; color: var(--muted); }
+    input, select, textarea {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      padding: 0.6rem 0.8rem;
+      font-size: 0.95rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    input:focus, select:focus, textarea:focus { border-color: var(--accent); }
+    textarea { resize: vertical; min-height: 120px; }
+    button[type=submit] {
+      width: 100%;
+      background: var(--accent);
+      color: #000;
+      font-weight: 700;
+      border: none;
+      border-radius: 6px;
+      padding: 0.75rem;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: opacity 0.2s;
+    }
+    button[type=submit]:hover { opacity: 0.85; }
+    .success-msg {
+      display: none;
+      background: #1a3a1a;
+      border: 1px solid var(--accent2);
+      border-radius: 6px;
+      padding: 1rem;
+      color: var(--accent2);
+      text-align: center;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>⚡ AI Task Platform</h1>
+  <span class="badge">Beta</span>
+</header>
+
+<div class="hero">
+  <h2>論文の実装依頼・<br>AIタスクをここに投げてください</h2>
+  <p>コードが公開されていない論文の PoC 実装、<br>
+  AIで処理できるタスクを受け付けています。<br>
+  処理結果は GitHub か メールで返します。</p>
+</div>
+
+<div class="cards">
+  <div class="card">
+    <div class="icon">📄</div>
+    <h3>論文 PoC 実装</h3>
+    <p>arXiv ID を貼るだけ。コードが存在しない論文の手法を実装してGitHubで公開します。</p>
+  </div>
+  <div class="card">
+    <div class="icon">🤖</div>
+    <h3>汎用 AI タスク</h3>
+    <p>文章整理・データ変換・コードレビュー・要約など、AIが得意なタスクをなんでも。</p>
+  </div>
+  <div class="card">
+    <div class="icon">🔬</div>
+    <h3>医療・研究サポート</h3>
+    <p>論文読解・統計解析補助・文献まとめ。医師×研究者×開発者が対応します。</p>
+  </div>
+  <div class="card">
+    <div class="icon">⚙️</div>
+    <h3>自動化スクリプト</h3>
+    <p>繰り返し作業をスクリプト化。Python / GAS / Bash で動くものを作ります。</p>
+  </div>
+</div>
+
+<section class="form-section">
+  <h2>タスクを依頼する</h2>
+  <form id="taskForm">
+    <div class="form-group">
+      <label for="task_type">タスク種別</label>
+      <select id="task_type" name="task_type" required>
+        <option value="">選択してください</option>
+        <option value="paper_poc">論文 PoC 実装（arXiv ID）</option>
+        <option value="ai_task">汎用 AI タスク</option>
+        <option value="medical">医療・研究サポート</option>
+        <option value="automation">自動化スクリプト</option>
+        <option value="other">その他</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="title">タイトル / 依頼概要</label>
+      <input type="text" id="title" name="title" placeholder="例: Attention Free Transformer の PyTorch 実装" required>
+    </div>
+    <div class="form-group">
+      <label for="detail">詳細・参考URL（arXiv IDなど）</label>
+      <textarea id="detail" name="detail" placeholder="例: https://arxiv.org/abs/2105.14103&#10;&#10;どういう実装が欲しいか、何をしたいか、など"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="email">返信先メール（任意）</label>
+      <input type="email" id="email" name="email" placeholder="result@example.com">
+    </div>
+    <button type="submit">依頼を送る →</button>
+    <div class="success-msg" id="successMsg">
+      ✅ 受け付けました。処理が完了したら GitHub Issue またはメールでお知らせします。
+    </div>
+  </form>
+</section>
+
+<footer>
+  <p>
+    Powered by AI × Human-in-the-loop |
+    <a href="https://github.com/bigree" target="_blank">GitHub @bigree</a> |
+    処理結果は <a href="https://github.com/bigree?tab=repositories" target="_blank">公開リポジトリ</a> で確認できます
+  </p>
+</footer>
+
+<script>
+  // フォーム送信 → GitHub Issues API（または Formspree）
+  // MVP: GitHub Issues として送信（認証不要の公開投稿）
+  const GITHUB_ISSUES_URL = "https://github.com/bigree/ai-task-platform/issues/new";
+
+  document.getElementById("taskForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    const type = document.getElementById("task_type").value;
+    const title = document.getElementById("title").value;
+    const detail = document.getElementById("detail").value;
+    const email = document.getElementById("email").value;
+
+    const body = [
+      `**タスク種別:** ${type}`,
+      `**詳細:**\n${detail}`,
+      email ? `**返信先:** ${email}` : "",
+    ].filter(Boolean).join("\n\n");
+
+    const params = new URLSearchParams({
+      title: `[${type}] ${title}`,
+      body: body,
+      labels: type,
+    });
+
+    // GitHub Issues フォームを新タブで開く
+    window.open(`${GITHUB_ISSUES_URL}?${params}`, "_blank");
+
+    document.getElementById("successMsg").style.display = "block";
+    this.reset();
+  });
+</script>
+
+</body>
+</html>
