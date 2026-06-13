@@ -1,0 +1,12 @@
+# Core (always required)
+matplotlib>=3.7
+numpy>=1.24
+Pillow>=10.0
+
+# Real mode only (OpenVLA inference)
+# Uncomment when using MODE='real'
+# torch>=2.1
+# transformers>=4.40
+# accelerate>=0.28
+# timm>=0.9
+# einops>=0.7
