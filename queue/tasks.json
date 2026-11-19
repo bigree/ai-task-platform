@@ -248486,5 +248486,2333 @@
     },
     "discovered_at": "2026-11-18T08:14:09.978886",
     "github_repo": null
+  },
+  {
+    "id": "paper:2611.24941v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
+    "description": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle",
+    "meta": {
+      "arxiv_id": "2611.24941v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24941v1",
+      "authors": [
+        "Jingzhi Bao",
+        "Xiaohe Ma",
+        "Hong Li",
+        "Yuanming Hu",
+        "Xiaoguang Han"
+      ],
+      "published": "2026-11-18T18:59:57Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:26.232702",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24940v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
+    "description": "We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the heavy cost of video generators. Recent lat",
+    "meta": {
+      "arxiv_id": "2611.24940v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24940v1",
+      "authors": [
+        "Junjie Ye",
+        "Yiqi Zhao",
+        "Muchen Xu",
+        "Celina Shiyu Wang",
+        "Hao Dong"
+      ],
+      "published": "2026-11-18T18:59:38Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:27.609808",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24917v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Unified Law for Visual Tasks (The Four Laws of Computer Vision)",
+    "description": "In this paper, we propose a Unified Law for Visual Tasks, which could be further divided into Four Laws of Computer Vision, with the goal of enabling a single framework or method to uniformly train on and perform nearly all visual tasks. Our starting point is an inspiration and hypothesis: if the wo",
+    "meta": {
+      "arxiv_id": "2611.24917v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24917v1",
+      "authors": [
+        "Sen Fang",
+        "Yalin Feng",
+        "Yancheng Zhang",
+        "Yanxin Zhang",
+        "Zonglin Lyu"
+      ],
+      "published": "2026-11-18T18:48:38Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:29.153764",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24915v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration",
+    "description": "Agentic image restoration composes operations to handle mixed degradations, yet its toolbox often requires storing multiple restoration networks. We propose PrismRestore, which constructs a compact bank of callable restoration actions from a single frozen all-in-one model. Our approach builds on tas",
+    "meta": {
+      "arxiv_id": "2611.24915v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24915v1",
+      "authors": [
+        "Zhaocheng Yu",
+        "Kui Jiang",
+        "Jing Cao",
+        "Yiang Chen",
+        "Xiaocheng Feng"
+      ],
+      "published": "2026-11-18T18:48:01Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:30.608779",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24904v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "ShadowTransfer: A Geographic Transfer Benchmark for Overhead Shadow Detection",
+    "description": "Overhead aerial imagery feeds dense-prediction pipelines that are routinely trained in one geographic region and deployed in another, yet no benchmark measures how shadow detection models transfer across regions. Existing overhead shadow datasets either lack a geographic transfer protocol or rely on",
+    "meta": {
+      "arxiv_id": "2611.24904v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24904v1",
+      "authors": [
+        "Shagun Mittal",
+        "Raymond A. Yeh",
+        "Satish Ukkusuri"
+      ],
+      "published": "2026-11-18T18:41:54Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:32.022720",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24864v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "NereidVLA: Learning to Understand and Navigate the Underwater World",
+    "description": "Underwater navigation requires translating visual spatial cues into motion, yet marine vision-language datasets rarely include paired robot trajectories. We present NereidVLA, a vision-language-action model that transfers marine spatial knowledge to language-conditioned 3D navigation. We first train",
+    "meta": {
+      "arxiv_id": "2611.24864v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24864v1",
+      "authors": [
+        "Chenjie Zhao",
+        "Zhiliang Zhu",
+        "Quan Chen",
+        "Yuquan Xue",
+        "Xingxue Shi"
+      ],
+      "published": "2026-11-18T18:19:00Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:33.388681",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24862v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Gaspard: Expressive unified speech and gesture synthesis with continuous autoregressive flow-matching and decoupled classifier-free guidance",
+    "description": "Human communication involves highly coordinated multimodal signals such as speech and co-speech gestures. Existing approaches for generating both modalities commonly follow a cascaded pipeline, where speech is generated first and subsequently used to drive gesture generation; speech generation is th",
+    "meta": {
+      "arxiv_id": "2611.24862v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24862v1",
+      "authors": [
+        "Téo Guichoux",
+        "Théodor Lemerle",
+        "Catherine Pelachaud",
+        "Nicolas Obin"
+      ],
+      "published": "2026-11-18T18:18:44Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:34.886537",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24840v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving",
+    "description": "World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning. However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predi",
+    "meta": {
+      "arxiv_id": "2611.24840v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24840v1",
+      "authors": [
+        "Binay Kumar Singh",
+        "Niels Da Vitoria Lobo"
+      ],
+      "published": "2026-11-18T18:06:20Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:36.264098",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24827v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Synthesizing hyperspectral Data using generative Models to train spectral Unmixing Methods for low-cost Crop Residue Cover Mapping",
+    "description": "The spectral range of the Field Imaging Nanosatellite for Crop residue Hyperspectral Mapping (FINCH), developed by the University of Toronto Aerospace Team's Space System Division, poses significant challenges for hyperspectral unmixing to determine crop residue cover fractional abundances. The seve",
+    "meta": {
+      "arxiv_id": "2611.24827v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24827v1",
+      "authors": [
+        "Ege Artan",
+        "Shuo Chen",
+        "Andrew Peng",
+        "Sammuel Aldrich Karya",
+        "Kyaw Thiha"
+      ],
+      "published": "2026-11-18T17:58:21Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:37.656258",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24806v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "ReCoCo: From Patches to Compositions for Visual Representation Learning",
+    "description": "Self-supervised learning has produced powerful visual representations, yet learning strong dense features remains challenging. While consistency between augmented views provides strong image-level supervision, extending this principle to local visual content is less straightforward. Existing approac",
+    "meta": {
+      "arxiv_id": "2611.24806v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24806v1",
+      "authors": [
+        "Juan Gutiérrez",
+        "Saman Zadtootaghaj",
+        "José Luis Blanco-Murillo",
+        "Sara Atito"
+      ],
+      "published": "2026-11-18T17:45:04Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:39.232503",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24805v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Edge-Efficient Joint RAW Image Compression and Restoration for Smart Wearable Devices",
+    "description": "Smart wearable devices, such as augmented reality glasses, increasingly rely on cameras to understand and interact with their surroundings. However, their compact sensors often capture noisy RAW images, while limited compute and power make high-quality on-device restoration difficult. This creates a",
+    "meta": {
+      "arxiv_id": "2611.24805v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24805v1",
+      "authors": [
+        "Yunong Sun",
+        "Sicheng Chen",
+        "Fei Xia"
+      ],
+      "published": "2026-11-18T17:44:34Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:40.661108",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24795v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Ultimate3D: Teaching Multimodal LLMs 3D Camera-Object Relations by Large-Scale Visual Instruction Data",
+    "description": "Multimodal Large Language Models (MLLMs) struggle with accurately capturing camera-object relations, especially for object orientation, camera viewpoint, and camera shots. This stems from the fact that existing MLLMs are trained on images with limited diverse camera-object relations and correspondin",
+    "meta": {
+      "arxiv_id": "2611.24795v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24795v1",
+      "authors": [
+        "Liu He",
+        "Yizhi Song",
+        "Ruiqi Xu",
+        "Baris Sarper Tezcan",
+        "Xiao Zeng"
+      ],
+      "published": "2026-11-18T17:39:54Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:42.108706",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24793v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "The Elephant in the Question: Unified Models Picture the Concepts Behind Their Answers",
+    "description": "Visualizing intermediate representations could help us inspect the reasoning steps underlying a model output. Unified multimodal models offer this opportunity by combining understanding and generation in one architecture. Their image generators can access representations formed while processing text",
+    "meta": {
+      "arxiv_id": "2611.24793v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24793v1",
+      "authors": [
+        "Tobias Braun",
+        "Marcus Rohrbach",
+        "Lorenzo Cavallaro"
+      ],
+      "published": "2026-11-18T17:38:46Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:43.603292",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24792v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Training-free motion statistics match self-supervised behavior encoders",
+    "description": "Self-supervised encoders for animal behavior are often trained on, or fed, hand-built movement features. We ask whether they beat those ingredients when compared fairly. A training-free representation, made of generic per-frame measurements summarized over fixed time windows and reduced with PCA, is",
+    "meta": {
+      "arxiv_id": "2611.24792v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24792v1",
+      "authors": [
+        "Ziwen Chen"
+      ],
+      "published": "2026-11-18T17:38:27Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:45.036635",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24785v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Read Together, Answer Apart: How Earlier Questions Help Vision-Language Models Look",
+    "description": "Vision-language models (VLMs) are often asked several questions about the same image in a single prompt (co-asking), yet existing evaluations report conflicting accuracy gains and hallucinations at the prompt level without tracking how individual answers change. By pairing each question's single-que",
+    "meta": {
+      "arxiv_id": "2611.24785v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24785v1",
+      "authors": [
+        "Xinyi Guo",
+        "Kaile Huang",
+        "Xitong Ling",
+        "Mingyi He",
+        "Chende Zheng"
+      ],
+      "published": "2026-11-18T17:31:56Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:46.535808",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24778v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Counterfactual World Models: JEPAs That Reason About \"What If\"",
+    "description": "World models operate in a world they cannot fully observe. When a hidden disturbance, such as a current pushing a boat, changes the outcome of an action, a counterfactual question follows: what would have happened under a different action, subject to the same disturbance? Its answer separates bad de",
+    "meta": {
+      "arxiv_id": "2611.24778v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24778v1",
+      "authors": [
+        "Randall Balestriero",
+        "Yann LeCun",
+        "Kerda Varaku"
+      ],
+      "published": "2026-11-18T17:24:00Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:47.904148",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24776v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "4D-TEMPO: Differentiable 4D-STEM ptychography via fast Physics Optimizers",
+    "description": "Electron ptychography recovers atomic structure from 4D-STEM data: diffraction patterns at multiple positions of a scanned probe. Current codes reconstruct an image and read atoms off it, or fit atoms under an $L_1$ loss; neither gives per-atom uncertainty. We propose 4D-TEMPO, a differentiable phys",
+    "meta": {
+      "arxiv_id": "2611.24776v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24776v1",
+      "authors": [
+        "Ramani Duraiswami",
+        "Yichao Zhang"
+      ],
+      "published": "2026-11-18T17:23:50Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:49.209742",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24762v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "A$^3$Bench: Compositional Reasoning over Aggressive Interactions in Videos",
+    "description": "Recent Multimodal Large Language Models (MLLMs) have achieved strong performance on general video understanding benchmarks, yet their ability to reason about participant roles in aggressive interactions remains largely unexplored. Existing violence and crime datasets primarily evaluate whether aggre",
+    "meta": {
+      "arxiv_id": "2611.24762v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24762v1",
+      "authors": [
+        "Austin C Baker",
+        "Raiyaan Abdullah",
+        "Daniel Zeev Yoffe",
+        "Shruti Vyas",
+        "Yogesh S Rawat"
+      ],
+      "published": "2026-11-18T17:15:58Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:50.615118",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24738v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Jeveration: System One Models Now Generate",
+    "description": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visua",
+    "meta": {
+      "arxiv_id": "2611.24738v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24738v1",
+      "authors": [
+        "Yuhe Liu",
+        "Qi Li",
+        "Shihua Zhang",
+        "Xinchao Wang"
+      ],
+      "published": "2026-11-18T16:56:59Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:52.107461",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24731v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "HandWorldBench: A Unified Benchmark for Hand-Centric World Models",
+    "description": "Recent advances in world models are opening new possibilities for fine-grained embodied tasks, with hand-object interaction offering a particularly demanding setting. Modeling these interactions involves capturing how hand actions change objects and how the resulting states persist over time. Yet sy",
+    "meta": {
+      "arxiv_id": "2611.24731v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24731v1",
+      "authors": [
+        "Zhaolu Wang",
+        "Jiacheng Xu",
+        "Lihong Wang",
+        "Shuqing Wang",
+        "Jianjie Fang"
+      ],
+      "published": "2026-11-18T16:47:46Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:53.408765",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24726v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Generalization of Text Line Segmentation for HTR in Historical Documents",
+    "description": "In this paper we investigate the generalization capability of state-of-the-art object detection models (Hi-SAM, YOLO, and RT-DETR) for the automatic segmentation of text lines in historical documents. Generalization is needed because it is not practical for museums and archives to produce large amou",
+    "meta": {
+      "arxiv_id": "2611.24726v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24726v1",
+      "authors": [
+        "Gayan H. Pathirage",
+        "Stephan M. Unter",
+        "Simon Corbillé",
+        "Elisa H. Barney Smith"
+      ],
+      "published": "2026-11-18T16:43:26Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:54.874338",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24723v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Multi-Band Galaxy Novel-View Synthesis with Radiative Gaussian Fields",
+    "description": "We propose a novel view synthesis tool for galaxies based on Gaussian Splatting (GS). Unlike RGB data, where GS has achieved success, galaxy observations consist of multi-band signals from a massive number of bodies, contain complex patterns of cross-band interactions, and capture light propagation ",
+    "meta": {
+      "arxiv_id": "2611.24723v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24723v1",
+      "authors": [
+        "Yuzhe Wu",
+        "Jialin Zhu",
+        "Doğa Yılmaz",
+        "Daisuke Kawata",
+        "He Wang"
+      ],
+      "published": "2026-11-18T16:41:49Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:56.220110",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24719v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "DRIFT: Detachable Reasoning for Runtime-Flexible and Efficient End-to-End Driving",
+    "description": "The integration of vision-language models (VLMs) into end-to-end (E2E) autonomous driving has demonstrated strong potential by providing scene description and reasoning capabilities. However, VLMs are computationally expensive, and switching language reasoning on and off at runtime without hurting c",
+    "meta": {
+      "arxiv_id": "2611.24719v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24719v1",
+      "authors": [
+        "Emad Aghajanzadeh",
+        "Bethany Anne Wong",
+        "Leonhard Kunze",
+        "Moritz Thoma",
+        "Maximilian Forstenhäusler"
+      ],
+      "published": "2026-11-18T16:40:13Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:57.586491",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24706v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Can Omni-modal LLMs Understand Spoken Intentions?",
+    "description": "Omni-modal large language models (omni-modal LLMs) can respond to spoken requests directly through voice and video calls. Such requests rely on the scene shared by the user and the assistant, so the same utterance may call for different help or for no response. Most audio-visual benchmarks provide q",
+    "meta": {
+      "arxiv_id": "2611.24706v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24706v1",
+      "authors": [
+        "Zijie Xin",
+        "Tianyi Wang",
+        "Daoze Zhang",
+        "Jie Yang",
+        "Changli Tang"
+      ],
+      "published": "2026-11-18T16:31:52Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:22:58.980269",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24696v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Improving Zero-shot 3D Semantic Mapping in Offroad with Geometric Priors",
+    "description": "Semantic 3D mapping is a powerful representation that enables platform agnostic mobile robot navigation in challenging offroad conditions. Current vision foundation models can accurately predict semantics zero-shot on structured scenes but performance is compromised in natural environments. On the o",
+    "meta": {
+      "arxiv_id": "2611.24696v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24696v1",
+      "authors": [
+        "Eerik Alamikkotervo",
+        "Risto Ojala"
+      ],
+      "published": "2026-11-18T16:23:05Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:23:00.380920",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24681v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "DrawScore: Evaluating Generated CAD Models against Engineering Drawings",
+    "description": "Automatic CAD generation is commonly evaluated with volumetric IoU, Chamfer Distance, and surface F-score, which barely penalize local errors that occupy only a small fraction of a part's volume or surface area, such as a misplaced hole or a slot on the wrong face, even though such errors are critic",
+    "meta": {
+      "arxiv_id": "2611.24681v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24681v1",
+      "authors": [
+        "Haorui Chen",
+        "Shiteng Lu",
+        "Zhanyu Guo",
+        "Zaixi Li",
+        "Yunhe Ni"
+      ],
+      "published": "2026-11-18T16:14:30Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:23:01.777003",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24672v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Predicting Species Splits: A Challenging Fine-Grained Benchmark for Category Discovery",
+    "description": "Widely used category discovery benchmarks have become increasingly saturated and often fail to reflect real-world discovery settings, making long-term evaluation of new methods difficult. We introduce PS-SPLIT, a large-scale fine-grained benchmark for category discovery, motivated by taxonomic split",
+    "meta": {
+      "arxiv_id": "2611.24672v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24672v1",
+      "authors": [
+        "Christian Lange",
+        "Joakim Bruslund Haurum",
+        "Bingchen Zhao",
+        "Oisin Mac Aodha"
+      ],
+      "published": "2026-11-18T16:10:02Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:23:03.167842",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24651v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
+    "description": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI). The models predict probabilities over candidate answers for general-purpose text and visual judgments, agent",
+    "meta": {
+      "arxiv_id": "2611.24651v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24651v1",
+      "authors": [
+        "Zhenqing Ling",
+        "Qirui Jiao",
+        "Daoyuan Chen",
+        "Cheng Chen",
+        "Xinji Mai"
+      ],
+      "published": "2026-11-18T15:53:39Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:23:04.464889",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24643v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "AggCLIP: Aggregating CLIP for Zero-Shot Multimodal Anomaly Detection",
+    "description": "Zero-Shot Multimodal Anomaly Detection (ZSMAD) aims to identify both appearance and geometric defects in novel categories without relying on target-specific training data, making it especially valuable in real-world scenarios constrained by data scarcity, privacy concerns, or high annotation costs. ",
+    "meta": {
+      "arxiv_id": "2611.24643v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24643v1",
+      "authors": [
+        "Zhi Li",
+        "Hanyu Wang",
+        "Fei Shen",
+        "Zhengtao Zhang"
+      ],
+      "published": "2026-11-18T15:49:05Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:23:05.924752",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24637v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Hypnos: A Dual-Phase End-to-End Platform for Scalable Continual Learning at the Edge",
+    "description": "Continual learning (CL) enables neural networks to adapt to non-stationary data streams by mitigating catastrophic forgetting, offering a path to robust, private, and adaptable edge devices. Yet, porting CL to real-world edge devices remains challenging for two reasons: (i) online operation, where s",
+    "meta": {
+      "arxiv_id": "2611.24637v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24637v1",
+      "authors": [
+        "Guilherme Guedes",
+        "Marco Apolinario Lainez",
+        "Charlotte Frenkel"
+      ],
+      "published": "2026-11-18T15:46:58Z",
+      "category": "cs.CV"
+    },
+    "discovered_at": "2026-11-19T08:23:07.287666",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24932v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+    "description": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We de",
+    "meta": {
+      "arxiv_id": "2611.24932v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24932v1",
+      "authors": [
+        "Priyanka Sinha",
+        "Sugam Pandey"
+      ],
+      "published": "2026-11-18T18:55:07Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:11.211116",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24908v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Decomposing SGD Dynamics in Neural Networks: Teacher-Induced Spikes and Variance Inflation",
+    "description": "We study two-layer neural networks trained by stochastic gradient descent (SGD) on a multi-index teacher model, focusing on how first-layer parameters orthogonal to the teacher subspace affect generalization. We decompose the first-layer weights into a signal component aligned with the teacher and a",
+    "meta": {
+      "arxiv_id": "2611.24908v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24908v1",
+      "authors": [
+        "Samet Demir",
+        "Zafer Dogan"
+      ],
+      "published": "2026-11-18T18:43:40Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:12.645384",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24896v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Equivariant Modeling with Polynomial Features via Minimal Homogeneous Generators",
+    "description": "We present a general framework for modeling and learning equivariant functions between finite dimensional semisimple real group representations, unifying constructions developed across many application areas. Our model is a linear combination of equivariant polynomial features whose coefficients are",
+    "meta": {
+      "arxiv_id": "2611.24896v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24896v1",
+      "authors": [
+        "Michael Liaofan Liu",
+        "Joe Kileel"
+      ],
+      "published": "2026-11-18T18:37:02Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:14.188119",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24892v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "On Evaluating User Simulators for Interactive Agents",
+    "description": "User simulators offer a scalable way to evaluate interactive agents, but how to assess their quality remains underexplored. In particular, it is unclear whether existing user simulator evaluation frameworks reliably detect meaningful failures in simulated user behavior. This uncertainty makes it dif",
+    "meta": {
+      "arxiv_id": "2611.24892v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24892v1",
+      "authors": [
+        "Hengguang Zhou",
+        "I-Hung Hsu",
+        "Li Chen",
+        "Priyanshi Shrivastava",
+        "Anastasios Angelopoulos"
+      ],
+      "published": "2026-11-18T18:34:23Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:15.552804",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24891v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity",
+    "description": "A fixed dispatch rate for LLM inference becomes stale as serving fleets resize and request sizes change. Generative output length is unknown at admission, and shared provider pools can lose capacity. We present Cap-and-Track, a design for asynchronous inference across provider capacity and internal ",
+    "meta": {
+      "arxiv_id": "2611.24891v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24891v1",
+      "authors": [
+        "Benjamin Novotny",
+        "Doug Szeto",
+        "Chang Wang",
+        "Shicheng Chen",
+        "George Zhihua Yuan"
+      ],
+      "published": "2026-11-18T18:34:10Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:17.015098",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24881v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Monoculture Robust Learning",
+    "description": "We introduce a notion of monoculture robustness in Probably Approximately Correct (PAC) learning, as a way to mitigate the problem of algorithmic monoculture (Kleinberg and Raghavan, 2021): the tendency of models sharing the same components (e.g., training data) to fail on the same inputs. Specifica",
+    "meta": {
+      "arxiv_id": "2611.24881v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24881v1",
+      "authors": [
+        "Lee Cohen",
+        "Jon Kleinberg",
+        "Omer Reingold"
+      ],
+      "published": "2026-11-18T18:27:52Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:18.522678",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24877v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+    "description": "Large language models (LLMs) are used to explain clinical prediction models, on the promise that they can say what a model computes, find its faults and even reveal new knowledge in it. We tested the three promises where the answers could be checked. From the International Stroke Trial we trained fo",
+    "meta": {
+      "arxiv_id": "2611.24877v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24877v1",
+      "authors": [
+        "Zhiyu Liu",
+        "Xinyu Yang"
+      ],
+      "published": "2026-11-18T18:24:54Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:19.867538",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24876v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Learning to Interact in Multi-Agent Self-Play for Controllable Autonomous Driving Scenario Generation",
+    "description": "Large-scale, multi-agent self-play trains robust driving policies effectively in simulation, but controlling these models to generate specific, safety-critical edge cases remains a key challenge. Existing goal-conditioned self-play frameworks rely primarily on static map-location goals and fail to r",
+    "meta": {
+      "arxiv_id": "2611.24876v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24876v1",
+      "authors": [
+        "Beyazit Yalcinkaya",
+        "Ethan Pronovost",
+        "Maximilian Naumann",
+        "Marcell Vazquez-Chanlatte"
+      ],
+      "published": "2026-11-18T18:23:29Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:21.266569",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24873v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "TangentPDE: Learning Local Operator Responses with Sparse Finite-Difference Supervision",
+    "description": "Neural PDE operators are often optimized through state reconstruction, which largely constrains operator values at observed inputs but does not fully characterize their sensitivity to local perturbations. A more faithful approximation of operator behavior requires not only accurate state predictions",
+    "meta": {
+      "arxiv_id": "2611.24873v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24873v1",
+      "authors": [
+        "Xinjian Xie",
+        "Ruxuan Chen",
+        "Jiashu Li",
+        "Tianyu Gao",
+        "Ye Wei"
+      ],
+      "published": "2026-11-18T18:23:20Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:22.770270",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24846v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Atomic MathReasoner: Instance-Level Composition of Atomic Reasoning Skills for Mathematical LLMs",
+    "description": "Most existing approaches enhance mathematical reasoning in large language models (LLMs) as a monolithic capability, despite the fact that different mathematical problems require different reasoning skills. Recent work has explored a more fine-grained perspective by decomposing mathematical reasoning",
+    "meta": {
+      "arxiv_id": "2611.24846v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24846v1",
+      "authors": [
+        "Jiashu Li",
+        "Tianyu Gao",
+        "Qinglong Liu",
+        "Jinping Wang",
+        "Ye Wei"
+      ],
+      "published": "2026-11-18T18:08:08Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:24.173274",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24843v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Measuring and Improving Transfer of Neural Surrogates for Vehicle Aerodynamics",
+    "description": "Neural surrogates for external vehicle aerodynamics are fast alternatives to physics-based computational fluid dynamics (CFD) simulations. Their foundational limitation is a lack of zero-shot generalization across vehicle classes, which results in an expensive, custom training campaign for each new ",
+    "meta": {
+      "arxiv_id": "2611.24843v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24843v1",
+      "authors": [
+        "Favour Nerrise",
+        "Julian Busch",
+        "Gurpreet Singh Hora",
+        "Martin Sipka",
+        "Danielle C. Maddix"
+      ],
+      "published": "2026-11-18T18:07:43Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:25.666412",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24839v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Kaer: Security-Aware Replanning for Multi-Agent Systems",
+    "description": "One popular architecture for multi-agent systems (MAS) relies on an orchestrator that generates an initial plan, coordinates its execution, and dynamically revises the plan based on agent feedback when tasks cannot be fully specified in advance. This dynamic replanning introduces a critical vulnerab",
+    "meta": {
+      "arxiv_id": "2611.24839v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24839v1",
+      "authors": [
+        "Tushin Mallick",
+        "Evan Rose",
+        "Matthew Laws",
+        "Alina Oprea",
+        "Cristina Nita-Rotaru"
+      ],
+      "published": "2026-11-18T18:05:47Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:27.021901",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24837v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "What Survival Benchmarks Don't Tell You: Impact of Model Selection and Dataset Regimes",
+    "description": "Despite the proliferation of survival analysis methods, current benchmarks often operate under narrow conditions: they heavily rely on the concordance index (C-index) for evaluation and model selection, and frequently either exclude deep learning (DL) methods or underrepresent challenging dataset re",
+    "meta": {
+      "arxiv_id": "2611.24837v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24837v1",
+      "authors": [
+        "Sandra Dening",
+        "Emre Kavak",
+        "Christian Wachinger",
+        "George H. Chen"
+      ],
+      "published": "2026-11-18T18:03:25Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:28.347320",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24831v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Overlooked and Underutilized: Prototypes are the Missing Piece in Tabular XAI",
+    "description": "Explainable AI (XAI) is frequently applied to high-stakes tabular data, yet the field relies heavily on feature attribution methods. While these approaches offer technical transparency, evaluating dozens of isolated features demands excessive cognitive effort from non-expert users. In this paper, we",
+    "meta": {
+      "arxiv_id": "2611.24831v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24831v1",
+      "authors": [
+        "Jacek Karolczak",
+        "Jerzy Stefanowski"
+      ],
+      "published": "2026-11-18T18:00:55Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:29.746272",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24799v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Prognosis Without Prediction: The Intrinsic Geometry of Survival",
+    "description": "Modeling systemic failure in high-dimensional environments is fundamentally limited by supervised algorithms that attempt to predict sparse, noisy or censored endpoints. To break this reliance on explicit outcome regression, we engineered the Self-Organizing Survival Manifolds (SOSM) framework, a de",
+    "meta": {
+      "arxiv_id": "2611.24799v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24799v1",
+      "authors": [
+        "Atahan Karagoz"
+      ],
+      "published": "2026-11-18T17:42:23Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:31.084920",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24797v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Bias-Only Training Dynamics in ReLU Networks",
+    "description": "Neural networks with randomly initialized, fixed weights and trainable biases are universal approximators, yet the dynamics of bias-only training remain largely unexplored. We study these dynamics in one-hidden-layer ReLU networks through activation codes, the binary patterns of active neurons that ",
+    "meta": {
+      "arxiv_id": "2611.24797v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24797v1",
+      "authors": [
+        "Shreyas Chaudhari",
+        "Jose M. F. Moura"
+      ],
+      "published": "2026-11-18T17:41:18Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:32.359576",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24782v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Learning Trajectories Leave Decodable Traces in Neural Network Weight Space and Internal Representations",
+    "description": "Neural networks trained on the same task develop related weight-space structures, yet remain distinguishable after learning. Do these differences merely reflect alternative solutions, or do they preserve information about individual learning histories? We tested whether final weights reveal initiali",
+    "meta": {
+      "arxiv_id": "2611.24782v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24782v1",
+      "authors": [
+        "Patrick Krauss",
+        "Achim Schilling",
+        "Andreas Maier",
+        "Thomas Kinfe",
+        "Claus Metzner"
+      ],
+      "published": "2026-11-18T17:27:55Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:33.828234",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24781v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Reconstruction vs. Prediction Pre-Training of Discrete Video Representations for Continuous Control",
+    "description": "Self-supervised video encoders are commonly trained to either reconstruct pixels or predict latent features, yet it remains unclear how these objectives shape representations for downstream dynamics. We present a capacity-matched study isolating this choice: two identical video encoders with a share",
+    "meta": {
+      "arxiv_id": "2611.24781v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24781v1",
+      "authors": [
+        "Ron Kosova",
+        "Francesco Croce"
+      ],
+      "published": "2026-11-18T17:25:58Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:35.187019",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24764v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Horizontal Flow Matching for Single-Cell Spatiotemporal Dynamics",
+    "description": "Learning the spatiotemporal dynamics of cells from spatial transcriptomics requires connecting snapshots of different cells acquired in different coordinate frames. A rotation or translation of a section can appear as cell movement and distort the inferred correspondence. We introduce horizontal flo",
+    "meta": {
+      "arxiv_id": "2611.24764v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24764v1",
+      "authors": [
+        "Zihan Wang",
+        "Jianzhe Li",
+        "Zhenyi Zhang",
+        "Peijie Zhou"
+      ],
+      "published": "2026-11-18T17:16:53Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:36.522658",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24763v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Elysium: Simulation-Free Unbalanced Schrödinger Bridges",
+    "description": "Reconstructing cellular dynamics from snapshots is challenging because the destructive nature of single-cell measurements makes tracking the same cells over time impossible. Cellular dynamics are inherently stochastic and involve changes in population size through proliferation and apoptosis. Growth",
+    "meta": {
+      "arxiv_id": "2611.24763v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24763v1",
+      "authors": [
+        "Zihan Wang",
+        "Jianzhe Li",
+        "Zhenyi Zhang",
+        "Peijie Zhou"
+      ],
+      "published": "2026-11-18T17:16:41Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:37.809912",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24757v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Variance-Optimal Counterfactual Policy Design for Sample-Efficient Online A/B Testing",
+    "description": "Online A/B testing is the standard approach for evaluating changes to user-facing systems, such as a new recommendation or ranking policy, before deployment. While the difference-in-means estimator of a standard A/B test is unbiased, it often suffers from high variance. When the treatment and produc",
+    "meta": {
+      "arxiv_id": "2611.24757v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24757v1",
+      "authors": [
+        "Shashank Gupta",
+        "Subhadeep Maji"
+      ],
+      "published": "2026-11-18T17:11:57Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:39.182175",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24752v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Learning the Anyon Atlas",
+    "description": "We extend our previous search for the modular data of topological quantum field theories in 2+1 dimensions from 22 to 42 anyons, identifying 150,679 new modular data. We do so by adding to our algorithm three rejection gates, two of them based on logistic regression, that discard representations of ",
+    "meta": {
+      "arxiv_id": "2611.24752v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24752v1",
+      "authors": [
+        "Jonah Berean-Dutcher",
+        "Clay Cordova",
+        "Julio Parra-Martinez",
+        "Richard Tuddenham",
+        "Zekai Zhu"
+      ],
+      "published": "2026-11-18T17:09:34Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:40.501505",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24747v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Cross-Vehicle Transferability of Lateral Velocity Estimation on Production Vehicles through Input Selection and Data Augmentation",
+    "description": "Lateral velocity is safety-critical for vehicle-dynamics control but cannot be measured with production sensors. Model-based estimators such as Kalman filters are established, whereas data-driven estimators are more accurate within the training regime but suspected to lose accuracy beyond it. Their ",
+    "meta": {
+      "arxiv_id": "2611.24747v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24747v1",
+      "authors": [
+        "Hendrik Schäfke",
+        "Simon F. G. Ehlers",
+        "Thomas Seel",
+        "Askar Vagapov",
+        "Christoph Schweers"
+      ],
+      "published": "2026-11-18T17:06:26Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:41.866136",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24741v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Sex Differences in the Detection of Parkinson's Disease from Speech",
+    "description": "Parkinson's disease (PD) is the second most common neurodegenerative disease in the world, and 70\\% to 75\\% of PD patients suffer from speech disorders at some stage. Since PD affects men more frequently than women, previous publications tend to rely on unbalanced datasets that potentially introduce",
+    "meta": {
+      "arxiv_id": "2611.24741v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24741v1",
+      "authors": [
+        "Hiba Akhaddar",
+        "Peter Plantinga",
+        "Mirco Ravanelli",
+        "Tristan Glatard"
+      ],
+      "published": "2026-11-18T16:57:24Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:43.237335",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24739v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Uneven gains in protein-RNA affinity and mutation-effect prediction",
+    "description": "Accurate matched affinities determine mutation effects, but gains in aggregate affinity prediction may transfer unevenly to average effects, ordering and local accuracy. We evaluated eleven method families using method-specific matched populations. Controlled CoPRA reduced absolute-affinity mean abs",
+    "meta": {
+      "arxiv_id": "2611.24739v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24739v1",
+      "authors": [
+        "Shangkun Sima",
+        "Tongfei Shen",
+        "Tianchi Lu"
+      ],
+      "published": "2026-11-18T16:57:14Z",
+      "category": "cs.LG"
+    },
+    "discovered_at": "2026-11-19T08:23:44.575277",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24927v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+    "description": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. In this work, we focus ",
+    "meta": {
+      "arxiv_id": "2611.24927v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24927v1",
+      "authors": [
+        "Sarah H. Cen",
+        "Lindsey A. Gailmard",
+        "Joohan Kim",
+        "Rishi Bommasani",
+        "Daniel E. Ho"
+      ],
+      "published": "2026-11-18T18:53:58Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:23:47.969891",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24924v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+    "description": "Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmar",
+    "meta": {
+      "arxiv_id": "2611.24924v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24924v1",
+      "authors": [
+        "Jiahang Lin",
+        "Jiahao Chen",
+        "Yiding Wang",
+        "Shichun Liu",
+        "Chengjun Pan"
+      ],
+      "published": "2026-11-18T18:52:13Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:23:49.335957",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24888v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Who are you? The Personal Imitation Game",
+    "description": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establ",
+    "meta": {
+      "arxiv_id": "2611.24888v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24888v1",
+      "authors": [
+        "Muhammad Rizky Wellyanto",
+        "Hajara-Yasmin Isa",
+        "Kexin Xue",
+        "Vishal Ravichandran",
+        "Wenpeng Lu"
+      ],
+      "published": "2026-11-18T18:32:14Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:23:50.782965",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24880v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs",
+    "description": "Agentic artificial intelligence (AI) is emerging in power electronics, where it drives the simulation loop that engineers used to close largely by hand. In this loop, a converter design, or a study of the network it connects to, is built, run, measured and revised until it satisfies its specificatio",
+    "meta": {
+      "arxiv_id": "2611.24880v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24880v1",
+      "authors": [
+        "Yuzhuo Li",
+        "Pasan Gunawardena",
+        "Yunwei Li"
+      ],
+      "published": "2026-11-18T18:27:40Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:23:52.199253",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24869v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+    "description": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rule",
+    "meta": {
+      "arxiv_id": "2611.24869v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24869v1",
+      "authors": [
+        "Mingliang Zhai",
+        "Chuanhao Li",
+        "Jiaming Tan",
+        "Zhen Li",
+        "Yuwei Wu"
+      ],
+      "published": "2026-11-18T18:20:39Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:23:53.561604",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24867v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Choosing What to Observe: Budget-Paired Counterfactual Audits for Credible Evaluation of Visual Agents",
+    "description": "Visual agents that read dense documents must ration a finite observation budget across candidate regions, yet answer accuracy conflates where an agent looks, how it adapts to the reads that remain, and how it an?swers once observation stops. We introduce budget-paired counterfactual audits, an evalu",
+    "meta": {
+      "arxiv_id": "2611.24867v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24867v1",
+      "authors": [
+        "Ruiqi Liu",
+        "Jinming Li",
+        "Mo Wang",
+        "Yang Lu",
+        "Yanlan Kang"
+      ],
+      "published": "2026-11-18T18:20:12Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:23:54.975370",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24845v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Vibe-Trading: Towards Agent-Native Trading",
+    "description": "Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices",
+    "meta": {
+      "arxiv_id": "2611.24845v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24845v1",
+      "authors": [
+        "Haozhe Wu",
+        "Zhonghang Li",
+        "Chao Huang"
+      ],
+      "published": "2026-11-18T18:07:57Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:23:56.369122",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24844v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "General progress substitutes for specific training data in language models",
+    "description": "Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to acquire it later, is unknown. Here we show that the general p",
+    "meta": {
+      "arxiv_id": "2611.24844v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24844v1",
+      "authors": [
+        "Mark Marosi",
+        "Peter Antal"
+      ],
+      "published": "2026-11-18T18:07:55Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:23:57.717324",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24830v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "A Foundation Model to Measure and Predict Human Behaviour",
+    "description": "Large language models (LLMs) are increasingly used to infer psychological attributes, predict individual behaviour, and simulate human populations. However, despite generating plausible responses, they often misrepresent individuals and distort population statistics. Here we introduce Chiron, a foun",
+    "meta": {
+      "arxiv_id": "2611.24830v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24830v1",
+      "authors": [
+        "Haoran Ye",
+        "Tianrui Huo",
+        "Hangzhen Li",
+        "Xin Zhang",
+        "Guojie Song"
+      ],
+      "published": "2026-11-18T17:59:08Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:23:59.113935",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24810v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "LAaDT-DSS: decision support for non-experts on rooftop PV, incentive and grid simulations under Turkish tariff rules",
+    "description": "Rooftop photovoltaics raise three questions: should a household invest, which incentive costs the state least, and does the feeder stay within limits? Those who ask are rarely modellers. We present LAaDT-DSS, decision-support software that answers all three under Turkish tariff rules from one simula",
+    "meta": {
+      "arxiv_id": "2611.24810v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24810v1",
+      "authors": [
+        "Baran Kaynak"
+      ],
+      "published": "2026-11-18T17:45:52Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:24:00.498355",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24798v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Soft Mixture of Quantum Experts for Hybrid Quantum-Classical Learning",
+    "description": "Quantum Machine Learning (QML) has attracted increasing interest as a possible route to construct feature representations that are difficult to reproduce with classical models. However, near-term QML architectures based on trainable parametrized quantum circuits remain affected by limited hardware r",
+    "meta": {
+      "arxiv_id": "2611.24798v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24798v1",
+      "authors": [
+        "Valeria Repetto",
+        "Romina D'Aurizio",
+        "Piero Farinelli"
+      ],
+      "published": "2026-11-18T17:41:45Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:24:01.765658",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24788v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Isabelle Pool Server: a pooled verification service for prover training and multi-agent proving",
+    "description": "Isabelle Pool Server (IPS), a verification service with a pool of warm headless Isabelle sessions behind an HTTP API, with session leasing and reclamation, memory-aware admission control, and a time budget on every call. Its verification interface spans single-step execution, block-level proof check",
+    "meta": {
+      "arxiv_id": "2611.24788v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24788v1",
+      "authors": [
+        "Xuanwei Ren",
+        "Wenda Li"
+      ],
+      "published": "2026-11-18T17:35:47Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:24:03.105114",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24765v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "LLM-Guided Cyber-Physical Attack Path Identification in Smart Grids",
+    "description": "Identifying high-impact attack paths in cyber-physical power systems is critical for improving grid resilience. Existing methods typically rely on either structural topology analysis or simulation-based cascading-failure models. Topology-based approaches capture connectivity but lack adversarial rea",
+    "meta": {
+      "arxiv_id": "2611.24765v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24765v1",
+      "authors": [
+        "Amr Elshazly",
+        "Jesse Roberts",
+        "Rachad Atat",
+        "Muhammad Ismail"
+      ],
+      "published": "2026-11-18T17:16:56Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:24:04.535774",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24728v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "How Generative Models Generate: A Concise Guide to the Generative AI Landscape",
+    "description": "The rapidly expanding generative AI landscape brings together methods that differ in architecture, learning objective, mathematical representation and sampling procedure. A concise, selectively organised technical guide can provide an accessible starting point for developing a coherent understanding",
+    "meta": {
+      "arxiv_id": "2611.24728v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24728v1",
+      "authors": [
+        "Tianhua Chen"
+      ],
+      "published": "2026-11-18T16:45:19Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:24:05.916960",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24711v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Openhagen Worlds: Calibrated Environments for Measuring and Training Scientific Discovery Agents",
+    "description": "Agents that do science must choose informative experiments and reason from their results, but most discovery benchmarks cannot separate that skill from recall, unstated scoring rules or shortcut policies. We introduce Openhagen Worlds, a suite of 27 procedurally generated environments (some with fin",
+    "meta": {
+      "arxiv_id": "2611.24711v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24711v1",
+      "authors": [
+        "Alexander Boesgaard Lorup"
+      ],
+      "published": "2026-11-18T16:36:18Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:24:07.271890",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24708v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "F$^3$: What Makes Good Experience in World-Action Models?",
+    "description": "Deployed world-action models (WAMs) can keep improving only if they make good use of their own experience. Existing methods supply retrieved rollouts or demonstrations to the policy as context, yet such experience often turns previously solved tasks into failures. What, then, makes good experience f",
+    "meta": {
+      "arxiv_id": "2611.24708v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24708v1",
+      "authors": [
+        "Zihe Huang",
+        "Sirui Zhou",
+        "Haozhi Han",
+        "Ruge Zhang",
+        "Teng Ma"
+      ],
+      "published": "2026-11-18T16:33:15Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:24:08.589334",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24699v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "When Does Continual Pre-Training Help? A Controlled Study of Dialectal Adaptation for Québec French",
+    "description": "Continual pre-training (CPT) is widely used to adapt pretrained language models to dialectal and non-standard language varieties, yet it remains unclear when this additional training is necessary, what drives its benefits, and whether aggregate evaluation scores adequately capture its effects. In th",
+    "meta": {
+      "arxiv_id": "2611.24699v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24699v1",
+      "authors": [
+        "Eeham Khan",
+        "Richard Khoury",
+        "Leila Kosseim"
+      ],
+      "published": "2026-11-18T16:26:03Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:24:10.019322",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24697v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Depth Before Breadth: Reverse-to-Forward Curriculum with Advantage Decomposition for LLM Agent",
+    "description": "Reinforcement learning (RL) has become a common approach for training large language model (LLM) agents on long-horizon tasks. However, learning from sparse terminal rewards makes credit assignment and exploration difficult. We approach these challenges through a policy-induced capability region, th",
+    "meta": {
+      "arxiv_id": "2611.24697v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24697v1",
+      "authors": [
+        "Siyuan Du",
+        "Yuxin Liu",
+        "Meng Tang",
+        "Haoran Li",
+        "Yechao Bai"
+      ],
+      "published": "2026-11-18T16:25:14Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:24:11.467602",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24669v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Movie2Game-Bench: Holistic Evaluation of Film-to-Game Adaptation Beyond Playability",
+    "description": "Adapting a film into a game requires selecting source elements and translating them into player actions, rules, and feedback. We introduce Movie2Game-Bench (M2G-bench), a benchmark for evaluating film-to-game adaptation beyond playability. M2G-bench combines general evaluation, movie-specific evalua",
+    "meta": {
+      "arxiv_id": "2611.24669v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24669v1",
+      "authors": [
+        "Jialing Xie",
+        "Yifan Zhou",
+        "Yiwen Zhang",
+        "Junjun He"
+      ],
+      "published": "2026-11-18T16:06:04Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:24:12.827521",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24650v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Self-Rewarded Reinforcement Learning for Better-Structured Medical Explanations in Small Language Models",
+    "description": "Small language models (SLMs) can run on commodity hardware and support privacy-preserving, on-premises clinical deployment, but their medical explanations are often short and poorly structured compared with large language models. Recent supervised approaches such as Meerkat transfer chain-of-thought",
+    "meta": {
+      "arxiv_id": "2611.24650v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24650v1",
+      "authors": [
+        "Prakhar Mishra",
+        "Bhavya Yajush Awasthi",
+        " Tanuja",
+        " Nishant"
+      ],
+      "published": "2026-11-18T15:52:24Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:24:14.122115",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24641v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Choosing the Right Representations: Task-Aware Fusion for Multimodal Materials Language Models",
+    "description": "Multimodal language models for materials science rely on effective mechanisms for incorporating three-dimensional structural representations. MatterChat addresses this challenge using a large bridge module between a pretrained structural encoder and the LLM, together with a separate contrastive alig",
+    "meta": {
+      "arxiv_id": "2611.24641v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24641v1",
+      "authors": [
+        "Huu Binh Ta",
+        "Alex Morehead",
+        "N. Benjamin Erichson",
+        "Ferdinando Fioretto",
+        "Sandeep Madireddy"
+      ],
+      "published": "2026-11-18T15:48:25Z",
+      "category": "cs.AI"
+    },
+    "discovered_at": "2026-11-19T08:24:15.485579",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24363v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Transferable Named Sparse Features for Morphology-based Gleason Grading",
+    "description": "Deep learning systems grade prostate biopsies at the level of pathologists, but most report a grade without the glandular architecture that justifies it. This work presents a grading system built on a sparse code over the tokens of a pathology foundation model. A sparse autoencoder pretrained on bio",
+    "meta": {
+      "arxiv_id": "2611.24363v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24363v1",
+      "authors": [
+        "Argyrios Zafeiriou",
+        "Athanasios Kallipolitis",
+        "Ilias Maglogiannis"
+      ],
+      "published": "2026-11-18T12:57:35Z",
+      "category": "eess.IV"
+    },
+    "discovered_at": "2026-11-19T08:24:19.127287",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24242v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Joint Image Denoising and Interpolation via Mixed Graph Filtering",
+    "description": "Images often require both denoising and interpolation, yet treating the two tasks separately is suboptimal: interpolation introduces correlated noise that complicates subsequent denoising, while denoising may remove image details useful for interpolation. In this paper, we study joint image denoisin",
+    "meta": {
+      "arxiv_id": "2611.24242v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24242v1",
+      "authors": [
+        "Gene Cheung",
+        "Niruhan Viswarupan",
+        "Romisaa Elsaidy"
+      ],
+      "published": "2026-11-18T11:21:35Z",
+      "category": "eess.IV"
+    },
+    "discovered_at": "2026-11-19T08:24:20.405887",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24232v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Stochastic Optimisation for Scalable Ptychographic Image Reconstruction",
+    "description": "X-ray ptychography is a lensless coherent diffraction imaging technique capable of high spatial resolution, in which an image is reconstructed by solving a large-scale inverse problem from highly redundant far-field diffraction measurements acquired under overlapping illumination. Whilst the measure",
+    "meta": {
+      "arxiv_id": "2611.24232v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24232v1",
+      "authors": [
+        "Alan W. Muriithi",
+        "Jared Tanner",
+        "Jaroslav M. Fowkes",
+        "Benedikt J. Daurer"
+      ],
+      "published": "2026-11-18T11:08:46Z",
+      "category": "eess.IV"
+    },
+    "discovered_at": "2026-11-19T08:24:21.778042",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24150v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Micrograph B-factor estimation via Wilson statistics",
+    "description": "The single-particle cryo-electron microscopy imaging process is known to cause exponential decay in the amplitude and power spectra of proteins. This decay is modeled by the B factor and is currently corrected as a post-processing stage of the 3D reconstruction. As a consequence, all experimental im",
+    "meta": {
+      "arxiv_id": "2611.24150v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24150v1",
+      "authors": [
+        "Ayelet Heimowitz",
+        "Amit Singer"
+      ],
+      "published": "2026-11-18T09:55:09Z",
+      "category": "eess.IV"
+    },
+    "discovered_at": "2026-11-19T08:24:23.067119",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.23444v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Gaussian Splatoms: Direct Atomic Structure Identification in Electron Tomography",
+    "description": "Atomic electron tomography (AET) computationally reconstructs the 3D atomic structure of materials from a series of 2D projection measurements acquired at different tilt angles. Inspired by Gaussian splatting techniques from computer vision, we introduce an atom-centric parameterization for modeling",
+    "meta": {
+      "arxiv_id": "2611.23444v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.23444v1",
+      "authors": [
+        "Nalini Singh",
+        "Tiffany Chien",
+        "Cedric Lim",
+        "Arthur R. C. McCray",
+        "Colin Ophus"
+      ],
+      "published": "2026-11-17T19:47:23Z",
+      "category": "eess.IV"
+    },
+    "discovered_at": "2026-11-19T08:24:24.479946",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.23419v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "LIC-Audit: How Comparable Are Reported Gains in Learned Image Compression?",
+    "description": "Learned image compression (LIC) papers often report BD-rate improvements of only a few percent. They are measured against VTM reference software whose version keeps changing: the claims we audit name 7 versions, 5 in 2025 papers alone. But how comparable are these numbers across papers, and what evi",
+    "meta": {
+      "arxiv_id": "2611.23419v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.23419v1",
+      "authors": [
+        "Haisheng Fu",
+        "Jie Liang",
+        "Runyu Yang",
+        "Feng Ding",
+        "Xin Dong"
+      ],
+      "published": "2026-11-17T19:21:03Z",
+      "category": "eess.IV"
+    },
+    "discovered_at": "2026-11-19T08:24:25.843834",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.23352v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Streaming Generative Video Compression with Embedding Alignment and In-Context Propagation",
+    "description": "Video compression at ultra-low bitrates presents substantial challenges in preserving perceptual quality. Although pretrained video diffusion transformers (DiTs) provide powerful generative priors, existing generative video compression (GVC) methods built on them typically rely on computationally ex",
+    "meta": {
+      "arxiv_id": "2611.23352v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.23352v1",
+      "authors": [
+        "Zhitao Wang",
+        "Hengyu Man",
+        "Han Liu",
+        "Wenrui Li",
+        "Debin Zhao"
+      ],
+      "published": "2026-11-17T13:38:33Z",
+      "category": "eess.IV"
+    },
+    "discovered_at": "2026-11-19T08:24:27.250018",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.23351v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "SWIMSS: An Open Multi-Center SwinUNETR Model for Multiple Sclerosis White Matter Lesion Segmentation",
+    "description": "Purpose: To develop and validate SWIMSS (SWInUNETR for Multiple Sclerosis white matter lesion Segmentation), a SwinUNETR-based deep learning (DL) model for reliable automated white matter (WM) lesion segmentation, in a large multicentric cohort of people with multiple sclerosis (pwMS). Methods: A re",
+    "meta": {
+      "arxiv_id": "2611.23351v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.23351v1",
+      "authors": [
+        "Federico Spagnolo",
+        "Po-Jui Lu",
+        "Mario Ocampo-Pineda",
+        "Lester Melie-Garcia",
+        "Esther Ruberte"
+      ],
+      "published": "2026-11-17T13:19:10Z",
+      "category": "eess.IV"
+    },
+    "discovered_at": "2026-11-19T08:24:28.599707",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.23347v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "SurgCBVR: A Multi-Domain Benchmark for Content-Based Surgical Video-to-Video Retrieval",
+    "description": "Hospitals record thousands of hours of surgical video annually, yet these archives remain difficult to search by content. Surgeons cannot readily retrieve similar operations, complications, or workflow events. Existing surgical computer vision primarily produces labels rather than retrieving relevan",
+    "meta": {
+      "arxiv_id": "2611.23347v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.23347v1",
+      "authors": [
+        "Mohammad Eslami",
+        "Mousa Moradi",
+        "Negin Ghamsarian",
+        "Nazlee Zebardast",
+        "Jennifer L Lindsey"
+      ],
+      "published": "2026-11-17T11:00:04Z",
+      "category": "eess.IV"
+    },
+    "discovered_at": "2026-11-19T08:24:29.961502",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.23344v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Beyond Accuracy: Benchmarking Uncertainty Quantification in Retinal Disease Screening",
+    "description": "Reliable uncertainty quantification (UQ) is essential for evaluating retinal AI systems beyond classification accuracy, yet it remains unclear whether existing UQ strategies generalize across diseases, model architectures, and reliability criteria. We introduce a large-scale, multi-disease benchmark",
+    "meta": {
+      "arxiv_id": "2611.23344v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.23344v1",
+      "authors": [
+        "Mahvash Jebeli",
+        "Mohammad Eslami",
+        "Nazlee Zebardast",
+        "Lucia Sobrin",
+        "Tobias Elze"
+      ],
+      "published": "2026-11-17T09:57:45Z",
+      "category": "eess.IV"
+    },
+    "discovered_at": "2026-11-19T08:24:31.345869",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.20382v2",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Signs of Wear: Evaluating Intelligent Speed Assistance Under Synthetic Adverse Conditions",
+    "description": "Intelligent Speed Assistance (ISA) systems rely on cameras to recognize speed-limit signs, yet existing benchmarks underrepresent the weathered, dirty, and overgrown signs commonly encountered on rural roads. We use generative image editing to introduce different forms of wear into real street-level",
+    "meta": {
+      "arxiv_id": "2611.20382v2",
+      "arxiv_url": "https://arxiv.org/abs/2611.20382v2",
+      "authors": [
+        "Johannes Fabian Hahn",
+        "Mao Shan",
+        "Julie Stephany Berrio Perez"
+      ],
+      "published": "2026-11-16T01:18:06Z",
+      "category": "eess.IV"
+    },
+    "discovered_at": "2026-11-19T08:24:32.678676",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24938v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models",
+    "description": "World-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation. We introduce Phoenix, which learns representations of scene structure for wo",
+    "meta": {
+      "arxiv_id": "2611.24938v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24938v1",
+      "authors": [
+        "Yupeng Zheng",
+        "Chaoyue Li",
+        "Linbo Wang",
+        "Xiang Li",
+        "Yuhang Zheng"
+      ],
+      "published": "2026-11-18T18:59:04Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:36.146918",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24926v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Grana: Compositional Reward Modeling for Long-Horizon Robot Manipulation",
+    "description": "Robot reward modeling faces two challenges: generalizing across tasks and accurately tracking progress in long-horizon manipulation. General-purpose reward models demonstrate broad task transfer, but transfer from short-task pretraining to long-horizon tasks remains underexplored. Long-horizon progr",
+    "meta": {
+      "arxiv_id": "2611.24926v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24926v1",
+      "authors": [
+        "Zi-ang Cao",
+        "Kaiyuan Zheng",
+        "Yinzhen Xu",
+        "Haonan Duan",
+        "Jiasheng Gu"
+      ],
+      "published": "2026-11-18T18:53:53Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:37.482908",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24925v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Render the Robot, Generate the World: One Video World Model Across Embodiments",
+    "description": "Predicting the consequences of an agent's actions requires modeling both the body's motion and the environment's response. Most video world models attempt to learn both from numerical actions, even though geometry and kinematics already specify the intended motion. We introduce Doppel, an embodiment",
+    "meta": {
+      "arxiv_id": "2611.24925v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24925v1",
+      "authors": [
+        "Yash Jangir",
+        "Karan Mirakhor",
+        "Renos Zabounidis",
+        "Muhammad Zubair Irshad",
+        "Sergey Zakharov"
+      ],
+      "published": "2026-11-18T18:52:28Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:38.827395",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24883v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Teleoperated Haircutting with Delay Compensation and Passivity-Based Control for Unilateral Internet Teleoperation under Real Communication Uncertainties",
+    "description": "Robotic haircutting requires accurate motion execution and reliable communication to safely reproduce the operator's commands. Internet-based teleoperation is a key enabling technology to remotely perform precise manipulation tasks such as haircutting. However, communication uncertainties, including",
+    "meta": {
+      "arxiv_id": "2611.24883v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24883v1",
+      "authors": [
+        "Viridiana Luna-Zempoalteca",
+        "Zhendai Huang",
+        "Rosalba Galvan-Guerra",
+        "Antonio Rosales",
+        "Xiaoli Liu"
+      ],
+      "published": "2026-11-18T18:28:34Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:40.192885",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24858v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Communications-free Collective Intelligence Via Allocentric Belief",
+    "description": "A team of skilled card players share no information amongst each other, and yet still are able to coordinate their play by watching the same players and reading the same tells. Autonomous systems have failed to exploit this logic, relying instead on explicit communication or complex state estimation",
+    "meta": {
+      "arxiv_id": "2611.24858v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24858v1",
+      "authors": [
+        "Cameron Mehlman",
+        "Arjun Mulchandani",
+        "Hovik Grigoryan",
+        "Anurag Koyyada",
+        "Gregory Falco"
+      ],
+      "published": "2026-11-18T18:17:30Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:41.659846",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24836v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "DiWALI: Diffusion Policy Learning in World Models via Latent Action Inference from Human and Robot Play",
+    "description": "Learning robot manipulation is constrained by the availability of action-labeled robot data, for both imitation and world models. Humans can demonstrate skills in seconds, but their demonstrations lack the required robot actions. We introduce DiWALI, a framework that learns and improves diffusion po",
+    "meta": {
+      "arxiv_id": "2611.24836v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24836v1",
+      "authors": [
+        "Akshay L Chandra",
+        "Iman Nematollahi",
+        "Lingyue Zhao",
+        "Daria Kulikova",
+        "Angela P. Schoellig"
+      ],
+      "published": "2026-11-18T18:03:14Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:42.978642",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24816v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "RoboMorpher: Scaling Robot Morphology Representations for Cross-Embodiment Action Prediction",
+    "description": "Learning shared action representations is central to cross-embodiment manipulation. However, identical joint values can produce different spatial configurations across robots, limiting representations learned from joint values alone. We introduce RoboMorpher, a morphology-conditioned action tokenize",
+    "meta": {
+      "arxiv_id": "2611.24816v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24816v1",
+      "authors": [
+        "Wenwei Lin",
+        "Yan Qin",
+        "Weiliang Deng",
+        "Zixuan Li",
+        "Kaixuan Wang"
+      ],
+      "published": "2026-11-18T17:47:57Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:44.374374",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24800v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Planner-Controller Interaction for Ackermann Navigation: A Matched Simulation and Hardware Benchmark",
+    "description": "Global planners and path-tracking controllers are often evaluated independently, although their interaction determines how a vehicle follows a planned path. Whether simulation accurately predicts the performance of specific planner-controller combinations on Ackermann-steered hardware remains uncert",
+    "meta": {
+      "arxiv_id": "2611.24800v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24800v1",
+      "authors": [
+        "Moaiz Saeed",
+        "Marah Saleh",
+        "Mounis Shawgi",
+        "Mohamed Al Musleh"
+      ],
+      "published": "2026-11-18T17:42:24Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:45.820996",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24789v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+    "description": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training meth",
+    "meta": {
+      "arxiv_id": "2611.24789v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24789v1",
+      "authors": [
+        "Phuong Tuan Dat",
+        "Qi Li",
+        "Xinchao Wang"
+      ],
+      "published": "2026-11-18T17:36:15Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:47.088718",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24771v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Hierarchical Admittance-Impedance Control for Mobile Manipulator Load Transfer",
+    "description": "This paper presents a hierarchical admittance-impedance controller that combines an inner Cartesian impedance controller, an outer 6D admittance supervisor, and workspace-aware mobile-base assistance for guided load transfer. The method is motivated by assistive tasks such as airport baggage handlin",
+    "meta": {
+      "arxiv_id": "2611.24771v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24771v1",
+      "authors": [
+        "Minghao Xu",
+        "Thushara Sandakalum",
+        "Christina Dao Wen Lee",
+        "Marcelo H. Ang"
+      ],
+      "published": "2026-11-18T17:19:50Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:48.359515",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24646v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Conceptual full-vehicle modeling of a modular all-wheel-drive robotic ADS test platform as a foundation for a digital twin architecture",
+    "description": "This paper presents the development of an initial full-vehicle simulation model of the PixKit modular electric test platform in IPG CarMaker. The objective is to create a physics-based and extendable model structure that can serve as a low-level foundation for future digital twin applications. The r",
+    "meta": {
+      "arxiv_id": "2611.24646v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24646v1",
+      "authors": [
+        "Felix Florian Schwald",
+        "Martin Meiners",
+        "Michael Viehof",
+        "Erik Hultman",
+        "Edwin Kamau"
+      ],
+      "published": "2026-11-18T15:51:19Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:49.644764",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24631v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Hydrodynamics of robotic micro-swimmers in confinement",
+    "description": "Inspired by seminal work by E.M. Purcell, we discuss the problem of predicting and optimizing the performance of autonomous robots swimming in confinement. Our approach is based on the explicit numerical resolution of the fluid flow induced by the swimmer, and it is validated experimentally on a cm-",
+    "meta": {
+      "arxiv_id": "2611.24631v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24631v1",
+      "authors": [
+        "Giovanni Corsi",
+        "Giovanni Noselli",
+        "Antonio DeSimone"
+      ],
+      "published": "2026-11-18T15:44:27Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:51.109916",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24585v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data",
+    "description": "Egocentric human recordings are far cheaper than dexterous robot demonstrations, promising stronger pretraining and direct skill learning without task-specific robot data. Yet humans and robots differ in morphology and kinematics, so human recordings lack the joint positions and actuator commands th",
+    "meta": {
+      "arxiv_id": "2611.24585v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24585v1",
+      "authors": [
+        "Yaping Li",
+        "Zhihong Liu",
+        "Jiacheng Li",
+        "Yi Yang",
+        "Wenchao Yue"
+      ],
+      "published": "2026-11-18T15:14:26Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:52.464534",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24579v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "ALIVE: Bring Foundation Features to Life with Events",
+    "description": "Visual foundation models provide powerful representations for diverse tasks, but their features become stale as visual content changes between image observations. Refreshing them requires new frames and repeated runs of a computationally expensive image encoder. We introduce ALIVE, an event-based me",
+    "meta": {
+      "arxiv_id": "2611.24579v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24579v1",
+      "authors": [
+        "Rong Zou",
+        "Haiqing Hao",
+        "Davide Scaramuzza"
+      ],
+      "published": "2026-11-18T15:10:48Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:53.705910",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24554v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "TinyARM-X: A Series of Open-Source, Configurable, and Transparent Torque-Controlled Desktop-Scale Robotic Manipulators",
+    "description": "Visuomotor policies have demonstrated that imprecise low-cost robots can autonomously complete complex manipulation tasks. However, most inexpensive manipulators rely on compact and rigidly position-controlled servos for actuation, which complicate simulation, operation, and safety. This work introd",
+    "meta": {
+      "arxiv_id": "2611.24554v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24554v1",
+      "authors": [
+        "Nicolas Kosanovic",
+        "Jean Chagas Vaz"
+      ],
+      "published": "2026-11-18T14:55:06Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:54.877786",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24511v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "OmniFish: A Bioinspired, Modular, Reconfigurable Soft Robotic Fish Enabling Multi-Modal Swimming",
+    "description": "In this work, we introduce OmniFish, a bioinspired modular soft robotic fish designed to emulate the full spectrum of body and/or caudal fin (BCF) locomotion modes within a single robotic platform. The design combines morphology averaging across representative fish species with a tendon-driven compl",
+    "meta": {
+      "arxiv_id": "2611.24511v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24511v1",
+      "authors": [
+        "Mathias Jensen",
+        "Saravana Prashanth Murali Babu"
+      ],
+      "published": "2026-11-18T14:34:00Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:56.102049",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24499v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Single-Controller Teleoperation and Multimodal Dataset Generation for a Mobile Manipulator",
+    "description": "Robot learning systems require synchronized, high-quality demonstrations that combine visual, proprioceptive, and action data. However, collecting such datasets with mobile manipulators is often slowed down by fragmented teleoperation interfaces and manual post-processing workflows. This paper prese",
+    "meta": {
+      "arxiv_id": "2611.24499v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24499v1",
+      "authors": [
+        "Fardien Azizi",
+        "Sitor Sla",
+        "Christiaan Peppelman",
+        "Dion van Santen",
+        "Andrei-Carlo Papuc"
+      ],
+      "published": "2026-11-18T14:26:21Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:57.365199",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24494v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "RECLAIM: Robot-Vision-Informed Adversarial Patch Defense via Embodied Attention Feedback",
+    "description": "Vision-language-action policies control embodied agents through a perception-action loop grounded in physical interaction, where adversarial patches can corrupt action predictions and thereby alter subsequent observations. To mitigate these threats, many existing defenses rely on policy adaptation o",
+    "meta": {
+      "arxiv_id": "2611.24494v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24494v1",
+      "authors": [
+        "Jiayou Zhu",
+        "Peng Guo",
+        "Litian Zhang",
+        "Xinze Shi",
+        "Yuting Zhang"
+      ],
+      "published": "2026-11-18T14:24:10Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:58.605039",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24470v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "When to Refine: Selective Search for Frozen Visual World Models",
+    "description": "Planning with a visual world model requires deciding both which actions to execute and how long to search for them. We introduce Selective CEM Refinement (SCR), a learned rule for deciding whether to continue cross-entropy method (CEM) search with a frozen LeWorldModel. After five it- erations, the ",
+    "meta": {
+      "arxiv_id": "2611.24470v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24470v1",
+      "authors": [
+        "Jingni Huang"
+      ],
+      "published": "2026-11-18T14:08:01Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:24:59.844958",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24455v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Homeward: No Place Like the Training View",
+    "description": "Vision-language-action (VLA) policies implicitly assume that third-person cameras remain fixed at their data-collection poses; once a camera is bumped, remounted, or swapped at deployment, task success degrades precipitously even though the underlying task and robot remain unchanged. We present Home",
+    "meta": {
+      "arxiv_id": "2611.24455v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24455v1",
+      "authors": [
+        "Mingyang Lyu",
+        "Yinqian Sun",
+        "Gongce Cao",
+        "Guobin Shen",
+        "Yuhao Zhang"
+      ],
+      "published": "2026-11-18T14:01:38Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:25:01.085520",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24424v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Constructive Infinitely Differentiable Guidance Vector Fields for Robotic Control",
+    "description": "Guidance vector fields (GVFs) are a popular framework for tasks such as robotic path-following and multi-robot motion coordination, but existing approaches may be non-differentiable or have large derivatives, limiting their use in controllers that require derivatives of the guidance signal, which is",
+    "meta": {
+      "arxiv_id": "2611.24424v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24424v1",
+      "authors": [
+        "Vinicius Mariano Goncalves",
+        "Peilin Wu",
+        "Adriano Rezende",
+        "Weijia Yao"
+      ],
+      "published": "2026-11-18T13:44:35Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:25:02.380165",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24376v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Teaching VLMs What to Say, Not How to Reason: Rethinking Counterfactual Reasoning in Autonomous Driving",
+    "description": "End-to-end autonomous driving systems have been shown to suffer from shortcut learning and causal confusion, limiting their ability to generalize robustly under distribution shift. To mitigate these limitations, recent works based on Vision-Language Models (VLMs) have explored incorporating linguist",
+    "meta": {
+      "arxiv_id": "2611.24376v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24376v1",
+      "authors": [
+        "Hayeon Oh",
+        "Donghwan Lee"
+      ],
+      "published": "2026-11-18T13:06:24Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:25:03.616561",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24375v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "SearchDiffusion: Information-Guided Diffusion Planning for Object Search",
+    "description": "Object search in unknown environments requires robots to gather useful observations while avoiding obstacles and accounting for limited sensor visibility. We present SearchDiffusion, a diffusion-based planner that generates position and heading trajectories using a learned dense utility map. The map",
+    "meta": {
+      "arxiv_id": "2611.24375v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24375v1",
+      "authors": [
+        "Sausar Karaf",
+        "Dmitrii Plotnikov",
+        "Alexey Kotcov",
+        "Dzmitry Tsetserukou"
+      ],
+      "published": "2026-11-18T13:05:59Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:25:04.856591",
+    "github_repo": null
+  },
+  {
+    "id": "paper:2611.24360v1",
+    "type": "paper_poc",
+    "status": "pending",
+    "title": "Towards Pose-Robust Few-Shot Vision-Language-Action Models",
+    "description": "Fine-tuning a vision-language-action (VLA) model on a few dozen demonstrations is the standard way to put a manipulation policy on a robot, yet the resulting policy silently assumes that the camera and the robot base stay exactly where they were during data collection: a bumped tripod or a base re-d",
+    "meta": {
+      "arxiv_id": "2611.24360v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24360v1",
+      "authors": [
+        "Wenhao Li",
+        "Zhongyi Han",
+        "Yuhao Wei",
+        "Liang Han",
+        "Yilong Yin"
+      ],
+      "published": "2026-11-18T12:54:16Z",
+      "category": "cs.RO"
+    },
+    "discovered_at": "2026-11-19T08:25:06.093936",
+    "github_repo": null
+  },
+  {
+    "id": "harvest:55d307c2a725",
+    "type": "community_request",
+    "status": "pending",
+    "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+    "description": "We’re Yonas and Daniel and we’re building StarSling (<a href=\"https:&#x2F;&#x2F;starsling.dev\">https:&#x2F;&#x2F;starsling.dev</a>), fast GitHub Actions runners with AI agents that ship PRs to continuously improve your tests and workflows.<p>Every CI job gets its own ephemeral sandbox on the fastest",
+    "meta": {
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=50536468",
+      "score": 87
+    },
+    "discovered_at": "2026-11-19T08:25:25.415033",
+    "github_repo": null
   }
 ]
